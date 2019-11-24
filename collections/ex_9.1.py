@@ -1,15 +1,15 @@
-produkty = {
+pry = {
     "z": 2.2,
     "m": 4.4,
     "k": 5.5,
 }
 print("dostepne produkty")
-for produkt in produkty:
-    print(f"-{produkt}")
+for pr in pry:
+    print(f"-{pr}")
 produkt = input("co kupujesz")
-if produkt in produkty:
+if pr in pry:
  ilosc = float(input("ile kg"))
- print("należy sie ", produkty[produkt] * ilosc)
+ print("należy sie ", pry[pr] * ilosc)
 else:
  print("nie ma takiego czegos")
 
