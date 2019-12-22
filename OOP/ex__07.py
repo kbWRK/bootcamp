@@ -18,6 +18,7 @@ class Vector:
    def __eq__(self, other):
         return self.x == other.x and self.y == other.y
 
+
 def test_vector_init():
     v1 = Vector(1, 2)
     assert v1.x == 1
