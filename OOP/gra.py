@@ -15,6 +15,18 @@ class Pionek:
             self.x -= 1
         elif kierunek == "d":
             self.x += 1
+# class Plansza:
+#     def plansza_jak_string(self,pionki,wymiar_x,wymiar_y):
+#         s = ""
+#         for x in range(wymiar_x):
+#             for y in range(wymiar_y):
+#                 if pionki[0].x == x and pionki.y == y:
+#                     s += "P"
+#                 else:
+#                     s += "-"
+
+
+
 
 
 class WojownikNocy(Pionek):
