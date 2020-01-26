@@ -1,6 +1,10 @@
 import json
 import urllib.request
 import time
+import json
+import urllib.request
+
+
 def main():
     lokalizacja = input("podaj lokalizacje")
 #/ api / location / search /?query = (query)
